@@ -13,10 +13,10 @@ app.use(express.json());
 
 // MySql - Configuro la conexión
 const conexion = mysql.createConnection({
-    host     : 'localhost',
-    user     : 'root',
-    password : '',
-    database : 'api_mysql'
+    host     : 'us-cdbr-east-03.cleardb.com',
+    user     : 'b3d1aed80d7ff3',
+    password : 'db5ce683',
+    database : 'heroku_b4585f3fb3fd27f'
 });
 
 // Ruta para probar a renderizar algo
